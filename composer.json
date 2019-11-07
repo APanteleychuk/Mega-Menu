@@ -1,0 +1,26 @@
+{
+    "name": "orvisoft/module-menublock",
+    "description": "This module helps to group product attributes on product page.",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        },
+        {
+            "email": "farhan@orvisoft.com",
+            "name": "Farhan Islam"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "OrviSoft\\MenuBlock\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
